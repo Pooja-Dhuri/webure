@@ -192,50 +192,50 @@ const Webure = () => {
       {/* Roles */}
       <div className="grid grid-cols-4 gap-4 p-20 place-items-center font-bold">
 
-        <div className="text-center place-content-center text-white 
+        <div className="text-center place-content-center text-white flex items-center justify-center flex-col
         border bg-[#3F0598] rounded-md w-60 h-60 p-10 items-center">
           <img src="design-thinking (1) 2.png" alt="" />
           <h1>Design</h1>
         </div>
 
         <div className=" w-60 h-60 shadow-[0px_0px_18px_rgba(0,0,0,0.12)] 
-        rounded-md p-10">
+        rounded-md p-10 flex items-center justify-center flex-col">
           <img src="setting (1) 1.png" alt="" />
           <h1>Front End Development</h1>
         </div>
 
         <div className="border w-60 h-60 shadow-[0px_0px_18px_rgba(0,0,0,0.12)]
-         p-10 rounded-md">
+         p-10 rounded-md flex items-center justify-center flex-col">
           <img src="setting (1) 2.png" alt="" />
           <h1>Back End Development</h1>
         </div>
 
         <div className="border w-60 h-60 p-10 shadow-[0px_0px_18px_rgba(0,0,0,0.12)] 
-         rounded-md">
+         rounded-md flex items-center justify-center flex-col">
           <img src="setting (1) 3.png" alt="" />
           <h1>Application Development</h1>
         </div>
 
         <div className="border w-60 h-60 p-10 shadow-[0px_0px_18px_rgba(0,0,0,0.12)] 
-          rounded-md">
+          rounded-md flex items-center justify-center flex-col">
           <img src="setting (1) 4.png" alt="" />
           <h1>Cloud Services</h1>
         </div>
 
         <div className="border w-60 h-60 p-10  shadow-[0px_0px_18px_rgba(0,0,0,0.12)] 
-         rounded-md">
+         rounded-md flex items-center justify-center flex-col">
           <img src="setting (1) 5.png" alt="" />
           <h1>Analytics</h1>
         </div>
 
         <div className="border w-60 h-60 p-10  shadow-[0px_0px_18px_rgba(0,0,0,0.12)] 
-         rounded-md">
+         rounded-md flex items-center justify-center flex-col">
           <img src="setting (1) 6.png" alt="" />
           <h1>Q-A And Testing</h1>
         </div>
 
         <div className="border w-60 h-60 p-10  shadow-[0px_0px_18px_rgba(0,0,0,0.12)] 
-          rounded-md">
+          rounded-md flex items-center justify-center flex-col">
           <img src="setting (1) 1.png" alt="" />
           <h1>Back Office Support</h1>
         </div>
@@ -278,7 +278,7 @@ const Webure = () => {
             see more
           </button>
         </div>
-        
+
       </div>
     </div>
   );
